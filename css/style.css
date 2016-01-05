@@ -1,5 +1,36 @@
 body {
-  font-family: Nunito;
+  font-family: Nunito, sans-serif;
   color: #faf3bc;
   background: #420600 url("img/bg-texture.jpg");
+}
+
+.nav {
+  margin-top: 100px;
+}
+
+.nav li a,
+.nav li a:hover {
+  background: none;
+  color: #faf3bc;
+  font-size: 1.1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Nunito, sans-serif;
+}
+
+.cta-button {
+  color: #faf3bc;
+  background: #4fb69f url("img/texture.png");
+  padding: 15px 30px;
+  margin: 40px 0;
+  border-radius: 25px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 1.1em;
 }
